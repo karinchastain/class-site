@@ -1,0 +1,68 @@
+body{
+  text-align: center;
+  background: #FFE979;
+  color: white;
+  font: georgia;
+}
+
+h1 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    /* padding-top: 300px; */
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FFE979;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+.about{
+  left: 0;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px
+
+}
+
+.home{
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.return{
+  font-size: 20px;
+}
+
+.projects{
+
+}
+/* ul {
+  list-style-type: none; /* Remove bullets */
+  /* width: 400px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding-left: 0px; */
+  /* padding: 500px */
+/* } */

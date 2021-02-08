@@ -1,0 +1,82 @@
+body{
+  background-color: #E2FFF2;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: georgia;
+}
+
+h1{
+  color: #056237;
+  background-color: white;
+  border: 10px double #056237;
+  border-radius: 30px;
+  height: auto;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+img {
+  border: 15px solid white;
+}
+
+.oliviabee{
+  font-size: 23px;
+  color: #05512E;
+}
+
+.photographer{
+  margin-top: -15px;
+  font-size: 15px;
+  color: #056237;
+}
+
+.image1{
+  float: left;
+  margin-right: 30px;
+  clear: right;
+}
+
+.image2{
+  float: right;
+  margin-left: 30px;
+  clear: left;
+}
+
+/* .question{ */
+  /* background: white; */
+  /* border: 5px solid white; */
+  /* border-radius: 30px; */
+/* } */
+
+figcaption{
+  margin-top: -13px;
+  font-size: 12px;
+}
+
+hr{
+  height: 1px;
+  background-color: white;
+  border: solid;
+  border-radius: 5px;
+  border-color: #056237;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+  padding-left: 0px;
+}
+
+a{
+  text-decoration: underline;
+  color: #056237
+}
+a:hover{
+  color: #E2FFF2;
+  background-color: #056237;
+}
