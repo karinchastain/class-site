@@ -1,0 +1,33 @@
+body{
+  background-color: #FFF9C9;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: georgia;
+  color: #7EB78C;
+}
+
+h1{
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
+  text-shadow: 2px 2px #40774D;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+hr{
+  background-color: #40774D;
+  height: 2px;
+  border: none;
+}
+
+.title{
+  font-size: 20px
+}
+
+.explanation{
+  color: #40774D;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
