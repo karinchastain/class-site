@@ -1,0 +1,17 @@
+body{
+  margin:0;
+  background: lightpink;
+  font-family: 'Architects Daughter', cursive;
+  /* can use google fonts or adobe fonts */
+}
+
+h1{
+  font-family:cursive;
+}
+
+p{
+  /* filter: blur(5px) */
+  transform: rotate(10deg);
+  transform: skewX(20deg
+  background: linear-gradient: define gradient
+}
