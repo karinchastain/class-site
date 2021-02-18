@@ -1,0 +1,169 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background: rgb(255, 241, 170);
+}
+
+.container{
+  background: rgb(255, 241, 170);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  z-index: 0;
+}
+
+.shelf{
+  background: rgb(93, 72, 47);
+  height: 5%;
+  width: 70%;
+  /* display: flex; */
+  position: fixed;
+  left: 50%;
+  bottom: -3%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.pot{
+  border-bottom: 150px solid rgb(223, 167, 93);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0px;
+	width: 30%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  position: fixed;
+  left: 50%;
+  bottom: -6%;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+/* .george{
+  background: rgb(142, 124, 81);
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  position: fixed;
+  transform: translate(-50%, -50%) rotate(180deg);
+  left: 50%;
+  margin: 0 auto;
+  z-index: 3;
+} */
+
+.plant{
+  width: 550px;
+  height: 500px;
+  background: rgba(109, 171, 101, 0.65);
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  z-index: 1;
+  border-radius: 50%
+}
+
+.big-leaf{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(59, 129, 60);
+}
+
+.one{
+  position:fixed;
+  left: 15%;
+  top: 25%;
+  transform: rotate(120deg)
+}
+
+.two{
+  position:fixed;
+  left: 40%;
+  top: 43%;
+  transform: rotate(150deg)
+}
+
+.three{
+  position:fixed;
+  left: 55%;
+  top: 15%;
+  transform: rotate(40deg)
+}
+
+.four{
+  position:fixed;
+  left: 23%;
+  top: 62%;
+  transform: rotate(70deg)
+}
+
+.five{
+  position:fixed;
+  left: 65%;
+  top: 60%;
+  transform: rotate(20deg)
+}
+
+.little-leaf{
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid rgb(204, 252, 170);
+}
+
+.un{
+  position:fixed;
+  left: 35%;
+  top: 15%;
+  transform: rotate(40deg)
+}
+
+.deux{
+  position:fixed;
+  left: 42%;
+  top: 75%;
+  transform: rotate(100deg)
+}
+
+.trois{
+  position:fixed;
+  left: 74%;
+  top: 28%;
+  transform: rotate(80deg)
+}
+
+.quatre{
+  position:fixed;
+  left: 9%;
+  top: 50%;
+  transform: rotate(-70deg)
+}
+
+.cinq{
+  position:fixed;
+  left: 85%;
+  top: 55%;
+  transform: rotate(140deg)
+}
+
+.six{
+  position:fixed;
+  left: 60%;
+  top: 53%;
+  transform: rotate(-15deg)
+}
+
+/* .sept{ */
+  position:fixed;
+  left: 50%;
+  top: 5%;
+  transform: rotate(40deg)
+}
