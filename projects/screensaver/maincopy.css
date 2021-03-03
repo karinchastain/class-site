@@ -223,10 +223,10 @@ body{
 
 @keyframes clouds{
   0%{
-    transform: translateX(-28vw);
+    transform: translateX(-40vw);
   }
   100%{
-    transform: translate(200vw);
+    transform: translate(210vw);
   }
 }
 
