@@ -1,0 +1,79 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background: rgb(236, 186, 194);
+}
+
+.flex{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle{
+  width: 20vw;
+  height: 20vw;
+  background: rgb(236, 163, 101);
+  border-radius: 50%;
+  animation: pulse 1s infinite alternate;
+  /* 1st property is delay, 2nd is length */
+  /* animation-name:pulse;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function:  */
+}
+
+.square{
+  width: 20vw;
+  height: 20vw;
+  background: rgb(236, 163, 101);
+  animation: spin 4s infinite linear;
+  /* animation-timing-function: linear; */
+}
+
+.runner{
+  width:20vw;
+  height:3vw;
+  background: rgb(236, 163, 101);
+  position: fixed;
+  bottom:0;
+  left:0;
+  animation: run 2s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform:scale(1);
+    background: rgb(236, 163, 101);
+  }
+  100%{
+    transform:scale(1.5);
+    background:rgb(255, 233, 84);
+  }
+}
+
+@keyframes spin{
+  0% {
+    transform:rotate(0);
+    /* opacity:1; */
+  }
+  100%{
+    transform:rotate(360deg);
+    /* opacity: 0; */
+  }
+}
+
+@keyframes run{
+  0%{
+    transform:translateX(-40vw);
+  }
+  100%{
+    transform: translateX(120vw);
+  }
+}
