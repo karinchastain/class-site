@@ -337,8 +337,8 @@ body{
 
 .secret:before{
   content: "day";
-  animation: good 20s infinite alternate;
-  animation-delay: 1s;
+  animation: good 20s infinite linear;
+  animation-delay: -1s;
 }
 
 @keyframes good{
@@ -348,7 +348,7 @@ body{
   50%{
     content:"night"
   }
-  100%{
+  /* 100%{
     content:"day";
-  }
+  } */
 }
