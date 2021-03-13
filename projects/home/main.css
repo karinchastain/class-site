@@ -1,0 +1,63 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  overflow: hidden;
+}
+
+.back{
+  width: 100vw;
+}
+
+.table{
+  left: 50%;
+  bottom: -50vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.gif{
+  left: 50%;
+  bottom: -43vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.one{
+  left: 50%;
+  bottom: -43vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  animation: pour 1.3s infinite alternate;
+  animation-delay: -1.3s;
+}
+
+.two{
+  left: 50%;
+  bottom: -43vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  animation: pour 1.3s infinite alternate;
+}
+
+.three{
+  left: 50%;
+  bottom: -43vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  animation: pour 1.3s infinite alternate;
+  animation-delay: -6.5s
+}
+
+@keyframes pour{
+  0%{
+    display: block;
+    opacity: 0;
+  }
+  100%{
+    display: block;
+    opacity: 1;
+  }
+}

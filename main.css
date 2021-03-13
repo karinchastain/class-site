@@ -5,6 +5,12 @@ body{
   font: georgia;
 }
 
+/* p{
+  margin-left: 100px;
+  margin-right: 100px;
+  word-wrap: normal;
+} */
+
 h1 {
     left: 0;
     line-height: 200px;
