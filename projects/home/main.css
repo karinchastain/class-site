@@ -11,6 +11,19 @@ body{
   width: 100vw;
 }
 
+.trevor{
+  background: transparent;
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  bottom: 4vh;
+  right: 33vw;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
 .table{
   left: 50%;
   bottom: -50vh;
