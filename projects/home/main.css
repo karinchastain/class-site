@@ -5,23 +5,204 @@
 body{
   margin:0;
   overflow: hidden;
+  cursor: url("curss.png"), default;
 }
 
 .back{
   width: 100vw;
 }
 
-.trevor{
+/* .trevor{
   background: transparent;
   width: 150px;
   height: 120px;
   position: absolute;
   bottom: 4vh;
   right: 33vw;
+} */
+
+.trevor{
+  position: absolute;
+  background: transparent;
+  color: transparent;
+  width: 150px;
+  height: 120px;
+  font-size: 20px;
+  bottom: 4vh;
+  right: 33vw;
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
-a:hover{
-  cursor: pointer;
+.trevor:hover{
+  color: #7b5f4a;
+  cursor: url("clickk.png"), pointer;
+}
+
+.trevor:before{
+    content: "spotify";
+}
+
+.twitch{
+  background: transparent;
+  color: transparent;
+  width: 190px;
+  height: 160px;
+  position: absolute;
+  top: 16vh;
+  left: 9vw;
+  font-size: 30px;
+  padding-top: 65px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.twitch:hover{
+  color: #798a67;
+  cursor: url("clickk.png"), pointer;
+}
+
+.twitch:before{
+    content: "twitch";
+}
+
+.fb{
+  background: transparent;
+  color: transparent;
+  width: 200px;
+  height: 160px;
+  position: absolute;
+  top: 9vh;
+  right: 10vw;
+  font-size: 24px;
+  padding-top: 85px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fb:hover{
+  color: #717c64;
+  cursor: url("clickk.png"), pointer;
+}
+
+.fb:before{
+    content: "fb marketplace";
+}
+
+.harry{
+  background: transparent;
+  color: transparent;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  top: 40vh;
+  left: 32vw;
+  font-size: 34px;
+  padding-top: 112px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.harry:hover{
+  color: #b4d6aa;
+  cursor: url("clickk.png"), pointer;
+}
+
+.harry:before{
+    content: "order coffee";
+}
+
+.window{
+  background: transparent;
+  color: transparent;
+  width: 380px;
+  height: 150px;
+  position: absolute;
+  top: 17vh;
+  left: 37vw;
+  font-size: 40px;
+  padding-top: 53px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.window:hover{
+  color: #616e7c;
+  cursor: url("clickk.png"), pointer;
+}
+
+.window:before{
+    content: "t a k e   r e s t";
+}
+
+.etsy{
+  background: transparent;
+  color: transparent;
+  width: 350px;
+  height: 90px;
+  position: absolute;
+  bottom: 9vh;
+  left: 6vw;
+  font-size: 30px;
+  padding-top: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.etsy:hover{
+  color: #fff2d9;
+  cursor: url("clickk.png"), pointer;
+}
+
+.etsy:before{
+    content: "etsy";
+}
+
+.coulddo{
+  background: transparent;
+  color: transparent;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  bottom: 13vh;
+  right: 18vw;
+  font-size: 22px;
+  padding-top: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.coulddo:hover{
+  color: #c7e8bd;
+  cursor: url("clickk.png"), pointer;
+}
+
+.coulddo:before{
+    content: "could do";
+}
+
+.trust{
+  background: transparent;
+  color: transparent;
+  width: 85px;
+  height: 170px;
+  position: absolute;
+  bottom: 13vh;
+  right: 43.5vw;
+  font-size: 22px;
+  padding-top: 60px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.trust:hover{
+  color: #7b5f4a;
+  cursor: url("clickk.png"), pointer;
+}
+
+.trust:before{
+    content: "trust";
 }
 
 .table{
@@ -38,7 +219,7 @@ a:hover{
   position: absolute;
 }
 
-.one{
+/* .one{
   left: 50%;
   bottom: -43vh;
   transform: translate(-50%, -50%);
@@ -73,4 +254,4 @@ a:hover{
     display: block;
     opacity: 1;
   }
-}
+} */

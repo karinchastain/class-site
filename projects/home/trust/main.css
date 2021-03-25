@@ -1,0 +1,29 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background: rgb(152, 191, 155);
+  color: white;
+  font: georgia;
+  font-size: 20px;
+  padding-top: 40vh;
+  text-align: center;
+}
+
+.promise{
+  padding-right: 1.5vw;
+  font-size: 15px;
+  animation: twinkle 5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes twinkle{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:50;
+  }
+}
