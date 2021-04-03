@@ -1,0 +1,72 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  overflow:hidden;
+  cursor: url("tissue.png"), default;
+
+}
+
+.spotify{
+  position: fixed;
+  bottom: 10px;
+  right: 20%;
+}
+
+.clock{
+  background: transparent;
+  width: 120px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  left: 28%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(112, 168, 180);
+  opacity: 30%;
+}
+
+.clock-time {
+  font-size:30px;
+}
+
+.tears{
+  position: fixed;
+  right: -10px;
+  bottom: -25px;
+  width: 60vw;
+}
+
+.tear{
+  position: fixed;
+  left: -100px;
+  width: 40vw;
+}
+
+.draggable{
+  /* width: 60vw; */
+  position: fixed;
+}
+
+.tear:hover{
+  cursor: url("tissuecrumple.png"), default;
+}
+
+.tears:hover{
+  cursor: url("tissuecrumple.png"), default;
+}
+
+.back{
+  width: 100vw;
+  position: fixed;
+  top: -10px;
+  z-index: -2
+}
